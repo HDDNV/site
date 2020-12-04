@@ -1,0 +1,55 @@
+@media(max-width: 575px) {
+  .menu  {
+    position: static;
+  }
+
+  .menu a{
+    width: 80%;
+  }
+
+.header{
+  background-position: center;
+
+}
+
+.about__company img{
+  width: 80%;
+  float: none;
+
+}
+
+.about__company{
+  text-align: center;
+}
+
+.member{
+  width: 80%;
+  margin: 5% auto ;
+  text-align: center;
+}
+
+.tariff{
+  width: 80%;
+  margin: 5% auto;
+
+}
+
+form{
+ width:  80%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

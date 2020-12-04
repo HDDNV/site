@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+:root{
+  --dark: #2e3036;
+}
+
+
+.menu{
+  position: sticky;
+  top: 0px;
+  text-align: center;
+   background-color: var(--dark);
+   padding: 20px 0;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+body{
+  margin: 0;
+  font-family: Nunito;
+  background-color: #3c4347;
+ color: white;
+}
+
+.header{
+  text-align: center;
+  background-image: url(mac.jpg);
+  padding: 250px 0;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.header a{
+  background-color: var(--dark);
+
+  padding: 12px 24px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.header h2{
+  color: white;
+}
+
+.about__company img{
+  float: right;
+  width: 450px;
+  margin: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px -8px black;
+}
+
+.about__company{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.about__company p{
+  text-align: justify;
+  margin: 40px;
+}
+
+.about__company h2{
+  text-align: center;
+}
+
+.comand {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.member img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.member{
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 0 30px -8px black;
+  width: 20%;
+  padding: 20px;
+  margin: 10px;
+  background: white;
+  color: var(--dark);
+}
+
+.member a{
+padding: 10px 24px;
+background-color: var(--dark);
+color: white;
+text-decoration: none;
+border-radius: 10px;
+}
+
+.tariffs{
+  text-align: center;
+  padding: 50px 0;
+}
+
+
+
+.tariff{
+  width: 30%;
+  box-shadow: 0 0 30px -5px black;
+  text-align: center;
+  margin: 0 20px;
+  padding: 0px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: white;
+  color: var(--dark);
+}
+
+.tariff li{
+  padding: 20px;
+  list-style-type: none;
+}
+
+.tariff-name{
+  background-color: var(--dark);
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.tariff a{
+  background-color: var(--dark);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.tariff-name.best{
+  padding: 40px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.contacts p{
+  font-size: 20px;
+
+}
+
+.contacts{
+  padding: 50px;
+
+}
+
+.contacts h1{
+  text-align: center;
+}
+
+form{
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+
+}
+
+.feetback input{
+  width: 80%;
+  margin: 10px;
+ padding: 20px;
+ border-radius: 8px;
+ border: none;
+ outline: none;
+}
+
+.feetback h1{
+  text-align: center;
+}
+
+.submit a{
+  background-color: white;
+  color:  var(--dark);
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.submit{
+  display: inline-block;
+  margin: 20px 0;
+}
